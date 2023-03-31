@@ -1,8 +1,9 @@
 import React from "react";
 import logo from './../imagenes/logo.png'
-import img from './../imagenes/AM 2023 - 940 x 788.png'
+import img from './../imagenes/img.jpg'
 import './Home.css'
 import { BsFacebook } from 'react-icons/bs';
+import Cards from "./Cards";
 
 
 
@@ -26,14 +27,14 @@ export default function Home(){
       {/*---Body----*/}
       <div>
         <img src={img} alt="Accionmarplatense" className="img"/>
+        <Cards/>
       </div>
       
 
       {/*---Footer---*/}
       <div className="footer">
         <a href="https://www.facebook.com/people/Plan-de-Escucha-Vecinal/100090977302524/"><BsFacebook className="facebook"/></a>
-        </div>
-        <div>
+        <p>La Rioja 1545 | Mar del Plata | Buenos Aires | Argentina | Telefonos: 491-3515 / 494 4452</p>
         <p>© Copyright - All rights reserved.</p>
       </div>
       </div>
